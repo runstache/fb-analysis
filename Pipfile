@@ -4,6 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+minio = "*"
+jupyter = "*"
+pandas = "*"
+ipykernel = "*"
+pyarrow = "*"
+plotly = "*"
+python-dotenv = "*"
 
 [dev-packages]
 mypy = "*"
