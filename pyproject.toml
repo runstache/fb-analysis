@@ -1,0 +1,24 @@
+[project]
+name = "fb-analysis"
+version = "0.1.0"
+requires-python = "~=3.13.0"
+dependencies = [
+    "boto3>=1.36.16",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "minio>=7.2.16",
+    "pandas>=2.2.3",
+    "plotly>=6.0.0",
+    "polars>=1.40.1",
+    "pyarrow>=19.0.0",
+    "python-dotenv>=1.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "assertpy>=1.1",
+    "moto>=5.0.28",
+    "mypy>=1.15.0",
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+]
